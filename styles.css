@@ -1,0 +1,113 @@
+body {
+    background: #303a44;
+    margin: 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .navbar {
+    font-size: 1.2em;
+  }
+
+  #home {
+    background: url(img/pexels-photo.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .landing-text h1 {
+    font-size: 500%;
+    font-weight: 700;
+    color: #f8f9fa;
+  }
+   .landing-text h3 {
+     font-size: 300%;
+     font-weight: 700;
+     color: #f8f9fa;
+   }
+
+   .landing-text p {
+     font-size: 30px;
+     color: #f8f9fa;
+   }
+
+   .padding {
+     padding: 80px 0;
+   }
+
+   .padding img {
+     width: 100%;
+   }
+
+   #project {
+     background-color: #15202b;
+   }
+
+   #fixed {
+     background: url(img/showcase.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 60vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+   }
+
+   footer {
+     width: 100%;
+     background-color: #15202b;
+     padding: 5% 5% 5% 5%;
+     color: #fff;
+   }
+
+   footer p {
+     font-size: 20px;
+   }
+
+   .fa {
+     padding: 15px;
+     font-size: 3em;
+     color: #fff;
+   }
+
+   .fa:hover {
+     color: rgb(204, 201, 201);
+     text-decoration: none;
+   }
+
+   .icon .fa {
+     font-size: 7em;
+   }
+
+
+   @media (max-width: 768px) {
+     .landing-text h1 {
+       font-size: 500%;
+     }
+     .landing-text{
+       font-size: 80%;
+     }
+     .fa {
+       padding: 10px;
+     }
+     .icon .fa{
+       font-size: 5em;
+     }
+     #home {
+      background: url(img/showcase.jpeg) no-repeat center center fixed;
+      display: table;
+      height: 70vh;
+      position: relative;
+      width: 100%;
+      background-size: cover;
+     }
+
+   }
