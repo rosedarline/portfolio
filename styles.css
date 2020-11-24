@@ -62,6 +62,10 @@ body {
   background-color: #15202b;
 }
 
+#card-section {
+  color: #111;
+}
+
 #fixed {
   background: url(img/showcase.jpeg) no-repeat center center fixed;
   display: table;
