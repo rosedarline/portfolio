@@ -31,6 +31,14 @@ body {
   font-size: 2rem;
 }
 
+.titles {
+  font-size: 2.8rem;
+}
+
+.sub-titles {
+  font-size: 2rem;
+}
+
 .landing-text {
   text-align: center;
   font-family: "Lobster", cursive;
