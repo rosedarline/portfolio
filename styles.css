@@ -10,7 +10,7 @@ body {
 }
 
 .portrait {
-  border-radius: 50%;
+  border-radius: 20%;
   max-height: 30vh;
 }
 
@@ -121,5 +121,16 @@ footer p {
   }
   .icon .fa {
     font-size: 5em;
+  }
+
+  #skills .titles,
+  #project .title {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    margin-top: 1.5rem;
   }
 }
